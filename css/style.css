@@ -1,3 +1,35 @@
+.btn {
+  text-decoration: none;
+  padding: 2.1rem 5.8rem 1.7rem 5.8rem;
+  color: #fff;
+  border-radius: 4rem;
+  font-size: 1.7rem;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: 0.1; }
+
+.btn-green {
+  background-color: var(--Strong-Cyan);
+  border-bottom: 3px solid #1a7f70; }
+
+.btn-green:hover {
+  background-color: var(--Light-Cyan);
+  border-bottom: 3px solid #27bea8;
+  box-shadow: 0 5px 15px #95e9dd; }
+
+.btn-blue {
+  background-color: var(--Light-Blue);
+  border-bottom: 3px solid #001299; }
+
+.btn-blue:hover {
+  background-color: var(--Very-Light-Blue);
+  border-bottom: 3px solid #6678ff;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); }
+
 body {
-  font: 100% Helvetica, sans-serif;
-  color: #FFFFFF; }
+  color: #9fabb2;
+  background-image: url(../images/bg-header-mobile.png);
+  font-size: 1.8rem;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: contain; }
