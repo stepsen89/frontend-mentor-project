@@ -9,7 +9,7 @@
   letter-spacing: 0.1; }
 
 .btn-green {
-  background-color: #4c545d;
+  background-color: #27bba4;
   border-bottom: 3px solid #1a7f70; }
 
 .btn-green:hover {
@@ -39,11 +39,46 @@ html {
   font-family: 'Bai Jamjuree', sans-serif;
   font-weight: 400; }
 
+h1, h2, h3 {
+  font-weight: 600;
+  margin-bottom: 2.6rem; }
+
+p {
+  font-size: 1.6rem;
+  margin-bottom: 7rem; }
+
 .hero {
   max-width: 1440px;
   margin: 0 auto;
   padding: 12.8rem 0 0 0;
   text-align: center; }
+
+.hero-buttons {
+  display: flex;
+  flex-direction: column;
+  height: 13.8rem;
+  justify-content: space-between;
+  margin-bottom: 16.8rem; }
+
+.hero-title {
+  font-size: 3.2rem; }
+
+.hero-subtitle {
+  margin-bottom: 5.2rem; }
+
+.section {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 3rem 3.4rem;
+  text-align: center; }
+
+.companies {
+  display: grid;
+  grid-template-columns: 142px;
+  grid-template-rows: repeat(5, 1fr);
+  grid-row-gap: 64px;
+  justify-content: center;
+  margin-bottom: 15.5rem; }
 
 body {
   color: #9fabb2;
@@ -52,3 +87,11 @@ body {
   background-position: top;
   background-repeat: no-repeat;
   background-size: contain; }
+
+.logo {
+  margin-bottom: 7.4rem;
+  width: 126px;
+  height: 126px; }
+
+img {
+  width: 100%; }
