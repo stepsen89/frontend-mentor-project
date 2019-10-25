@@ -9,22 +9,41 @@
   letter-spacing: 0.1; }
 
 .btn-green {
-  background-color: var(--Strong-Cyan);
+  background-color: #4c545d;
   border-bottom: 3px solid #1a7f70; }
 
 .btn-green:hover {
-  background-color: var(--Light-Cyan);
+  background-color: #6173ff;
   border-bottom: 3px solid #27bea8;
   box-shadow: 0 5px 15px #95e9dd; }
 
 .btn-blue {
-  background-color: var(--Light-Blue);
+  background-color: #6173ff;
   border-bottom: 3px solid #001299; }
 
 .btn-blue:hover {
-  background-color: var(--Very-Light-Blue);
+  background-color: #6173ff;
   border-bottom: 3px solid #6678ff;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); }
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+html {
+  font-size: 62.5%;
+  font-family: 'Bai Jamjuree', sans-serif;
+  font-weight: 400; }
+
+.hero {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 12.8rem 0 0 0;
+  text-align: center; }
 
 body {
   color: #9fabb2;
